@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;  
+}
+.background{
+    background-color: rgb(231, 231, 231);
+    height: 100vh; 
+}
+.calculator{
+   
+    width:38vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    gap:5px;
+    border: 5px solid white;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+  
+}
+.calculator p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+#plus{
+    padding-top: 70px;
+}
+.ans{
+    
+    font-size:70px;
+    padding-top: 50px;
+    text-align: right;
+   direction: rtl;
+    width:35vw;
+    height:25vh;
+    background-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 5; 
+    margin-left: 15px;
+    margin-top: 13px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+}
+.clearbtn{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red;
+    color:white;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+}
+
+.numplus{
+    width:100px;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-row-end:6 ;
+    color:white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+   margin-left: 10px;
+}
+.numequal{
+    
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 20px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+}
+.dividebtn{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.multiplybtn{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num7{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num8{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num9{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num-{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num4{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num5{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num6{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num1{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num2{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num3{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num0{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.num00{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    background-color: rgba(245, 245, 245, 0.91);
+}
+.numdot{
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.91);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+}

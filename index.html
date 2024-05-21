@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="background">
+
+<div class="calculator">
+
+    <div class="ans"></div>
+    <div class="clearbtn" onclick="clearDisplay()"><p>clear</p></div>
+    <div class="dividebtn"onclick="appendToDisplay('/')" ><p>/</p></div>
+    <div class="multiplybtn" onclick="appendToDisplay('*')"><p>*</p></div>
+    <div class="num7" onclick="appendToDisplay('7')"><p>7</p></div>
+    <div class="num8" onclick="appendToDisplay('8')"><p>8</p></div>
+    <div class="num9" onclick="appendToDisplay('9')"><p>9</p></div>
+    <div class="num-" onclick="appendToDisplay('-')"><p>-</p></div>
+    <div class="num4" onclick="appendToDisplay('4')"><p>4</p></div>
+    <div class="num5" onclick="appendToDisplay('5')"><p>5</p></div>
+    <div class="num6" onclick="appendToDisplay('6')"><p>6</p></div>
+    <div class="numplus" onclick="appendToDisplay('+')"><p id="plus">+</p></div>
+    <div class="num1" onclick="appendToDisplay('1')"><p>1</p></div>
+    <div class="num2" onclick="appendToDisplay('2')"><p>2</p></div>
+    <div class="num3" onclick="appendToDisplay('3')"><p>3</p></div>
+    <div class="num0" onclick="appendToDisplay('0')"><p>0</p></div>
+    <div class="num00" onclick="appendToDisplay('00')"><p>00</p></div>
+    <div class="numdot" onclick="appendToDisplay('.')"><p>.</p></div>
+    <div class="numequal" onclick="calculateResult()"><p>=</p></div>
+</div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
